@@ -63,3 +63,11 @@ Email: gandreedipallavi@gmail.com
 LinkedIn:https://linkedin.com/in/gandreedi-pallavi-7523a630b/
 
 GitHub: https://github.com/gandreddi-pallavi238
+
+# screenshot
+<img width="1627" height="696" alt="image" src="https://github.com/user-attachments/assets/3be12ef5-87a7-4739-9a84-0e7a95ca5a43" />
+<img width="1582" height="808" alt="image" src="https://github.com/user-attachments/assets/4a25c9ed-762a-44dc-8665-f7ceb8476aa1" />
+<img width="1535" height="732" alt="image" src="https://github.com/user-attachments/assets/b5c762c7-9efc-401e-aead-b250d4e43591" />
+
+
+
