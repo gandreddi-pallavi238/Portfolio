@@ -1,0 +1,294 @@
+/* =======================
+   GLOBAL STYLES
+======================= */
+:root {
+  --bg-primary: #0f172a;
+  --bg-secondary: #111827;
+  --card-bg: #1f2933;
+  --accent: #38bdf8;
+  --text-primary: #f8fafc;
+  --text-secondary: #cbd5e1;
+  --border-radius: 18px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #0f172a, #020617);
+  color: var(--text-primary);
+  min-height: 100vh;
+}
+
+/* =======================
+   MAIN LAYOUT
+======================= */
+main {
+  display: flex;
+  max-width: 1200px;
+  margin: 40px auto;
+  gap: 30px;
+  padding: 20px;
+}
+
+/* =======================
+   SIDEBAR
+======================= */
+.sidebar {
+  background: var(--card-bg);
+  width: 280px;
+  border-radius: var(--border-radius);
+  padding: 25px;
+}
+
+.avatar-box img {
+  border-radius: 50%;
+  border: 3px solid var(--accent);
+}
+
+.name {
+  font-size: 22px;
+  margin-top: 15px;
+}
+
+.title {
+  font-size: 14px;
+  color: var(--accent);
+  margin-top: 5px;
+}
+
+.sidebar-info_more {
+  margin-top: 25px;
+}
+
+.contacts-list {
+  list-style: none;
+}
+
+.contact-item {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 15px;
+}
+
+.icon-box {
+  color: var(--accent);
+  font-size: 18px;
+}
+
+.contact-title {
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.contact-link {
+  color: var(--text-primary);
+  text-decoration: none;
+}
+
+.social-list {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.social-link {
+  color: var(--text-primary);
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.social-link:hover {
+  color: var(--accent);
+}
+
+/* =======================
+   MAIN CONTENT
+======================= */
+.main-content {
+  flex: 1;
+  background: var(--card-bg);
+  border-radius: var(--border-radius);
+  padding: 30px;
+}
+
+/* =======================
+   NAVBAR
+======================= */
+.navbar {
+  margin-bottom: 30px;
+}
+
+.navbar-list {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.navbar-link {
+  background: transparent;
+  border: none;
+  color: var(--text-secondary);
+  font-size: 15px;
+  cursor: pointer;
+  padding-bottom: 6px;
+}
+
+.navbar-link.active,
+.navbar-link:hover {
+  color: var(--accent);
+  border-bottom: 2px solid var(--accent);
+}
+
+/* =======================
+   SECTIONS
+======================= */
+article {
+  display: none;
+}
+
+article.active {
+  display: block;
+  animation: fadeIn 0.6s ease;
+}
+
+.article-title {
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: var(--accent);
+}
+
+.about-text p {
+  line-height: 1.7;
+  color: var(--text-secondary);
+  margin-bottom: 15px;
+}
+
+/* =======================
+   RESUME
+======================= */
+.timeline ul {
+  list-style: none;
+}
+
+.timeline li {
+  background: var(--bg-secondary);
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.timeline h4 {
+  font-size: 16px;
+}
+
+.timeline span {
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.skills-list {
+  list-style: none;
+  margin-top: 15px;
+}
+
+.skills-item {
+  background: var(--bg-secondary);
+  padding: 12px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+/* =======================
+   PROJECTS
+======================= */
+.project-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.project-item {
+  background: var(--bg-secondary);
+  padding: 18px;
+  border-radius: 14px;
+  transition: 0.3s;
+}
+
+.project-item:hover {
+  transform: translateY(-8px);
+  border: 1px solid var(--accent);
+}
+
+.project-title {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: var(--accent);
+}
+
+/* =======================
+   CONTACT
+======================= */
+.contact p {
+  margin-bottom: 10px;
+  color: var(--text-secondary);
+}
+
+/* =======================
+   BUTTONS
+======================= */
+button {
+  cursor: pointer;
+}
+
+/* =======================
+   ANIMATION
+======================= */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* =======================
+   RESPONSIVE
+======================= */
+@media (max-width: 900px) {
+  main {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+}
+.social-list {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.social-item {
+  list-style: none;
+}
+
+.social-link {
+  font-size: 22px;
+  color: #38bdf8;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.social-link:hover {
+  color: #ffffff;
+  transform: scale(1.2);
+}
