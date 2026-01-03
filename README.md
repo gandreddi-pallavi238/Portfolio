@@ -58,8 +58,8 @@ Open index.html in your browser to view the site.
 
 # 📞 Contact
 
-Email: gandreedipallavi@gmial.com
+Email: gandreedipallavi@gmail.com
 
-LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/gandreedi-pallavi-7523a630b/)
+LinkedIn:https://linkedin.com/in/gandreedi-pallavi-7523a630b/
 
-GitHub: [github.com/yourusername](https://github.com/gandreddi-pallavi238)
+GitHub: https://github.com/gandreddi-pallavi238
