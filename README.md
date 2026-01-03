@@ -46,7 +46,7 @@ portfolio-website/
 
 Clone the repository:
 
-git clone https://github.com/yourusername/portfolio-website.git
+git clone https://github.com/gandreddi-pallavi238/Portfolio
 
 
 Navigate into the project folder:
